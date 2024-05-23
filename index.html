@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar Cipher</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <H1>CAESAR CIPHER</H1>
+        <H5>Enter your data here:</H5>
+        <!-- <input type="text" id="inputText" placeholder="Enter text"> -->
+        <textarea id="inputText" placeholder="Enter text"></textarea>
+        <br>
+        <H5>Select your shift amount:</H5>
+        <select id="shiftValue">
+            <option value="-1">-1</option>
+            <option value="-2">-2</option>
+            <option value="-3">-3</option>
+            <option value="-4">-4</option>
+            <option value="-5">-5</option>
+            <option value="-6">-6</option>
+            <option value="-7">-7</option>
+            <option value="-8">-8</option>
+            <option value="-9">-9</option>
+        </select>
+        <br><br>
+        <button id="scrambleButton" class="scramblebtn">DESCRAMBLE</button>
+        <br>
+        <div class="output">
+            <p id="outputText"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
